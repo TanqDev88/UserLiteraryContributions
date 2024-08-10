@@ -1,17 +1,16 @@
 <nav class="navbar bg-light">
-    <div class="container d-flex justify-content-end">
-      <app-logout></app-logout>
-    </div>
-  </nav>
+  <div class="container d-flex justify-content-end">
+    <app-logout></app-logout>
+  </div>
+</nav>
 
 <h2 class="m-3">Comentarios</h2>
 <a class="m-3" [routerLink]="['/home']">Volver</a>
 
-
-<div class="card m-3" *ngFor="let comentario of comentarios" >
-    <div class="card-body">
-      <h5 class="card-title"> name: {{comentario.name}}</h5>
-      <h5 class="card-title">email: {{comentario.email}}</h5>
-      <p class="card-text">{{comentario.body}}</p>
-    </div>
+<div class="card m-3" *ngFor="let comentario of comentarios">
+  <div class="card-body">
+    <h5 class="card-title"> name: {{comentario.name}}</h5>
+    <h5 class="card-title">email: {{comentario.email}}</h5>
+    <p class="card-text">{{comentario.body}}</p>
   </div>
+</div>

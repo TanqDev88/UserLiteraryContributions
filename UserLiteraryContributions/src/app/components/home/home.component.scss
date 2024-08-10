@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
- background-color: #e42121;
+  background: linear-gradient(to bottom, #1a1a1a, #2c3e50, #34495e, #4b6584); /* Gradiente desde negro, pasando por tonos de gris y azul oscuro */
   color: #e42121; /* Nuevo color para el texto principal */
 }
 
@@ -10,7 +10,7 @@ body {
 
 h2 {
   font-family: 'Work Sans', sans-serif;
-  color: #785ebb; /* Nuevo color para el título */
+  color: #36983e; /* Nuevo color para el título */
 }
 
 .card {
