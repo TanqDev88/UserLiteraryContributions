@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { Post } from 'src/app/models/post';
-import { PostsService } from 'src/app/services/posts.service';
+// import { Post } from 'src/app/models/post';
+import { Post } from '../../models/post';
+// import { PostsService } from 'src/app/services/posts.service';
+import { PostsService } from '../../services/posts.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
 
