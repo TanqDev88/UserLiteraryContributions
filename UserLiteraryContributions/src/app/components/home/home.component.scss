@@ -1,36 +1,36 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(to bottom, #1a1a1a, #2c3e50, #34495e, #4b6584); /* Gradiente desde negro, pasando por tonos de gris y azul oscuro */
-  color: #e42121; /* Nuevo color para el texto principal */
+  background: linear-gradient(to bottom, #1a1a1a, #2c3e50, #34495e, #4b6584);
+  color: #e42121;
 }
 
 .navbar {
-  background-color: #1a1a1a; /* Fondo negro para la barra de navegación */
+  background-color: #1a1a1a;
 }
 
 h2 {
   font-family: 'Work Sans', sans-serif;
-  color: #36983e; /* Nuevo color para el título */
+  color: #36983e;
 }
 
 .card {
-  background-color: #e9e8f1; /* Fondo blanco para las tarjetas */
-  border: 1px solid #0d6efd; /* Borde azul oscuro */
+  background-color: #e9e8f1;
+  border: 1px solid #0d6efd;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para un efecto más marcado */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .card-title {
   font-weight: bold;
-  color: #343a40; /* Texto oscuro para resaltar en la tarjeta */
+  color: #343a40;
 }
 
 .card-text {
-  color: #4a0bf5; /* Texto en gris oscuro */
+  color: #4a0bf5;
 }
 
 .card-link {
-  color: #0d6efd; /* Azul oscuro para los enlaces */
+  color: #0d6efd;
   text-decoration: none;
 }
 
@@ -39,5 +39,5 @@ h2 {
 }
 
 .text-muted {
-  color: #bdadae !important; /* Gris más claro para texto secundario */
+  color: #bdadae !important; 
 }

@@ -1,10 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-// import { User } from 'src/app/models/user';
-// import { User } from 'src/app/models/user'
 import { User } from '../../models/user';
-// import { UsersService } from 'src/app/services/users.service';
 import { UsersService } from '../../services/users.service';
 
 @Component({
@@ -22,7 +19,6 @@ export class LoginComponent implements OnInit {
   constructor(private router: Router, private usersService: UsersService) {
     this.loginForm = new FormGroup({
       email: new FormControl('', [Validators.email, Validators.required]),
-      //Minimum eight characters, at least one uppercase letter, one lowercase letter and one number:
       zipcode: new FormControl('', [Validators.required])
     });
 
