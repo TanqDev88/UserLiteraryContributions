@@ -1,28 +1,24 @@
 <div class="container d-flex justify-content-center">
   <div class="row m-5 w-25">
-<form [formGroup]="loginForm" (ngSubmit)="submitLogin()">
-  <div *ngIf="validMessage != '' ">
-      <h3 class="text-danger">{{ validMessage }}</h3>
-  </div>
-  <div class="form-group mb-3">
-    <label for="Email" class="form-label">Email</label>
-    <input type="email" class="form-control" id="Email" formControlName="email" aria-describedby="emailHelp">
-  </div>
-  <div *ngIf="controles['email'].errors?.['email']">
-      <p class="text-danger">
-          Email Invalid
-      </p>
-  </div>
-  <div class="form-group mb-3">
-    <label for="zipcode" class="form-label">ZipCode</label>
-    <input type="password" class="form-control" formControlName="zipcode" id="zipcode">
-  </div>
-  <div *ngIf="controles['zipcode'].errors?.['pattern']">
-      <p class="text-danger">
-          ZipCode Invalid
-      </p>
-  </div>
-  <button type="submit" class="btn btn-primary" [disabled]="!loginForm.valid">Log in</button>
-</form>
+    <form [formGroup]="loginForm" (ngSubmit)="submitLogin()">
+      <div *ngIf="validMessage != '' ">
+          <h3 class="text-danger">{{ validMessage }}</h3>
+      </div>
+      <div class="form-group mb-3">
+        <label for="Email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="Email" formControlName="email" aria-describedby="emailHelp">
+      </div>
+      <div *ngIf="controles['email'].errors?.['email']">
+          <p class="text-danger">Email Invalid</p>
+      </div>
+      <div class="form-group mb-3">
+        <label for="zipcode" class="form-label">ZipCode</label>
+        <input type="password" class="form-control" formControlName="zipcode" id="zipcode">
+      </div>
+      <div *ngIf="controles['zipcode'].errors?.['pattern']">
+          <p class="text-danger">ZipCode Invalid</p>
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="!loginForm.valid">Log in</button>
+    </form>
   </div>
 </div>

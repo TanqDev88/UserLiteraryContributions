@@ -1,0 +1,29 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e42121;
+  color: #e42121; /* Color para el texto principal */
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  color: #785ebb; /* Color para mensajes de validación */
+}
+
+.form-label {
+  color: #343a40; /* Texto oscuro para los labels */
+}
+
+.form-control {
+  background-color: #e9e8f1; /* Fondo claro para los inputs */
+  border: 1px solid #0d6efd; /* Borde azul oscuro */
+  color: #4a0bf5; /* Color del texto dentro de los inputs */
+}
+
+.btn-primary {
+  background-color: #0d6efd; /* Azul oscuro para el botón */
+  border: none;
+}
+
+.text-danger {
+  color: #fa0a0a; /* Color para los textos de error */
+}
